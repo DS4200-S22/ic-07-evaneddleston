@@ -116,15 +116,28 @@ const mouseleave1 = function(event, d) {
 */
 
 // TODO: What does each line of this code do?
+// selects anything with class 'bar'
 svg1.selectAll(".bar")
+  // finds our data
    .data(data1)
+   // f
    .enter()
+   // appends rect to svg
    .append("rect")
+      // applying different styling and event listeners
+      // assigns class
      .attr("class", "bar")
+     // scales the x positions of rectangle based on the scores
      .attr("x", (d,i) => xScale1(i))
+     // scales the y psiitons of rectangle based on scores
      .attr("y", (d) => yScale1(d.score))
+     // set height and width of bars based on the scores
      .attr("height", (d) => (height - margin.bottom) - yScale1(d.score))
      .attr("width", xScale1.bandwidth())
+     // set the event that occurs when a mouse hovers or leaves a location
+     // on the webpage
      .on("mouseover", mouseover1)
      .on("mousemove", mousemove1)
      .on("mouseleave", mouseleave1);
+
+//
