@@ -141,3 +141,12 @@ svg1.selectAll(".bar")
      .on("mouseleave", mouseleave1);
 
 //
+
+const svg2 = d3
+  .select("#csv-bar")
+  .append("svg")
+  .attr("width", width-margin.left-margin.right)
+  .attr("height", height - margin.top - margin.bottom)
+  .attr("viewBox", [0, 0, width, height]);
+
+  d3.select()
