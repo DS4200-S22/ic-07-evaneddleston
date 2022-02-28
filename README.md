@@ -15,7 +15,7 @@ The purpose of this assignment is to start learning how to use D3.js to build cu
 
 1. Create a GitHub Page for your repo and add the link to your GitHub Page above where you see  https://ds4200-s22.github.io/ic-07-evaneddleston/
 
-1. Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
+1. Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting.
 
 1. A .css file (style.css) was included in your repo. Add this file to your index.html file as an an **external** stylesheet. All styling for your webpage should be achieved using this external stylesheet.  
 
@@ -39,7 +39,7 @@ The purpose of this assignment is to start learning how to use D3.js to build cu
   - `CD` or open a terminal / command prompt window in the same folder that holds your website code.
   - Start a python simple server with one of these commands (depending on how you set python up on your machine): `python -m http.server`, `python3 -m http.server`, or `py -m http.server`.
   - After running the command, wait for the output: `Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)`.
-  - Open your web browser (Firefox or Chrome) and navigate to the URL: http://localhost:8000. This is where you will see your code rendered.
+  - Open your web browser (Firefox or Chrome) and navigate to the URL: http://localhost:aq  8000. This is where you will see your code rendered.
 
 ## Resources
 
